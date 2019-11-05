@@ -1,2 +1,3 @@
-# CTF-write-up
-Some write ups of problems ive done
+### NewbieCTF2019
+
+# Find The Plain

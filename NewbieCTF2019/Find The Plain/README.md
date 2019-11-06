@@ -46,7 +46,7 @@ As the problem said we need a md5 format and we have this important information 
 
 ![expert](./images/information_expert.png)
 
-Now we know its encrypted `k459iki6m5j094m2lmkhjmi9527l81ml` with rot algorithm with key = 7.
+Now we know `k459iki6m5j094m2lmkhjmi9527l81ml` is encrypted with rot algorithm with key = 7.
 
 So we have to decrypt it `26 - 7 = 19` so we can decrypt it with key = 19.
 

@@ -28,6 +28,6 @@ So open `browser2.db` with sqlite3 for example and use the following command : `
 
 ![database](./images/database.png)
 
-We have found the drug dealer lcoation : `Jeju_international_airport`
+We have found the contact point : `Jeju_international_airport`
 
 **FLAG** : `KorNewbie{Jeju_international_airport}`

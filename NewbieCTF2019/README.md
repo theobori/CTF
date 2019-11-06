@@ -2,5 +2,5 @@
 
 Category | Problem
 --------|--------
-Forensics | Contact point
-Forensics | Find The Plain
+Forensics | [Contact point](https://github.com/b0th/CTF/tree/master/NewbieCTF2019/Contact%20point)
+Forensics | [Find The Plain](https://github.com/b0th/CTF/tree/master/NewbieCTF2019/Find%20The%20Plain)

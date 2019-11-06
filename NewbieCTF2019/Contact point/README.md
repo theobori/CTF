@@ -24,7 +24,7 @@ This will give us the `apps/` folder where a lot of data is stored. But the most
 
 **In which there is a database with the desired location.**
 
-So open `browser2.db` with sqlite3 for example, we can use the following command : `SELECT * FROM history ;`. 
+So open `browser2.db` with sqlite3 for example and use the following command : `SELECT * FROM history ;`. 
 
 ![database](./images/database.png)
 

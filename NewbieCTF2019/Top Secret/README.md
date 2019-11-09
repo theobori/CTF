@@ -19,6 +19,24 @@ The file name does not give us enough information, so we'll go find it ourselves
 
 `volatility -f windows7.vmem imageinfo`
 
+![image_profile](./images/image_profile.png)
+
+We now have the profile : `Win7SP1x86`. Let's dump the processes who were running :
+
+`volatility -f windows7.vmem --profile=Win7SP1x86 pslist`
+
+![processes](./images/processes.png)
+
+There is a lot of interesting processes like `chrome.exe` , `notepad.exe` or `mspaint.exe`. Let's dump one of them like `mspaint.exe`. His pid is `1020` :
+
+`volatility -f windows7.vmem --profile=Win7SP1x86 procdump -p 1020 --dump-dir=$PWD`
+
+The file output name is `1020.dmp` , let's get the printable characters sequence `strings 1020.dmp | grep KorNewbie{.*}`.
+
+### Short method
+
+`strings windows7.vmem | grep KorNewbie{.*}`
 
 
 
+**FLAG**: `KorNewbie{OH..You_Know_B4sic_0F_M3mory_Forensics!}`

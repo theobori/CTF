@@ -10,7 +10,7 @@ Author: 신재욱(Y311J)
 
 ## Solutions
 
-### Long method
+### Hardest method
 
 [Windows 7 Enterprise K-b94208dd.vmem](http://web.jaeuk.xyz/Top_Secret/NewbieCTF2019_Top_Secret.zip) is a virtual memory file.
 
@@ -33,7 +33,7 @@ There is a lot of interesting processes like `chrome.exe` , `notepad.exe` or `ms
 
 The file output name is `1020.dmp` , let's get the printable characters sequence `strings 1020.dmp | grep KorNewbie{.*}`.
 
-### Short method
+### Easiest method
 
 `strings windows7.vmem | grep KorNewbie{.*}`
 

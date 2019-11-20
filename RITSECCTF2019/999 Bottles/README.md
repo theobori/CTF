@@ -12,7 +12,7 @@ Author: INGRESSIVE
 
 ## Solution
 
-Every ELF files have two differents output : `Nope!` if the input is wrong and `OK!` if the input is valid. You can check it by decompiling, I have use ghidra.
+Every ELF files have two differents output : `Nope!` if the input is wrong and `OK!` if the input is valid. You can check it by decompiling, i used ghidra.
 
 So let's bruteforce all of this program and store the valid inputs.
 

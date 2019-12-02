@@ -6,3 +6,7 @@
 
 ## Solution
 
+Use gdb on faker, `info functions` and you will see `thisone`. Go to that function and get the flag.
+
+![gdb](./images/gdb.png)
+

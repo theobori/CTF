@@ -6,4 +6,10 @@
 
 ## Solution
 
-The problem was easier than expected , i solved it with `ltrace` , 
+The problem was easier than expected , i solved it with `ltrace` :
+
+![ltrace_screen](ltrace_alien_bin.png)
+
+And we can directly see the pass : **`bd23cf3f56baa86bc`**.
+
+I think you can patch it too.

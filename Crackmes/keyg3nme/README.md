@@ -20,4 +20,4 @@ We can see directly the key : **`0x4c7`**
 
 But i have done it with a different way , i have set `eax` to 0 at `0x1217` , `set $eax = 0`.
 
-As i said you can patch the **`jne`** but it's not interesting.
+You can patch the **`jne`** too.
